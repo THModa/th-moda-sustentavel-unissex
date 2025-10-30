@@ -1,0 +1,148 @@
+/* === ESTILO GERAL === */
+:root {
+  --verde: #2e7d32;
+  --marrom: #4e342e;
+  --bege: #f5f3e7;
+  --branco: #fff;
+  --preto: #111;
+  --fonte: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte);
+}
+
+body {
+  background-color: var(--bege);
+  color: var(--preto);
+  line-height: 1.6;
+}
+
+/* === CABEÇALHO === */
+header {
+  background: linear-gradient(90deg, var(--verde), var(--marrom));
+  color: var(--branco);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: var(--branco);
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--bege);
+}
+
+#lang-btn {
+  background-color: var(--bege);
+  color: var(--marrom);
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* === CONTEÚDO === */
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro h2 {
+  color: var(--verde);
+  margin-bottom: 10px;
+}
+
+/* === SEÇÕES === */
+.sessao {
+  background-color: var(--branco);
+  padding: 20px;
+  border-left: 6px solid var(--verde);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.sessao h3 {
+  color: var(--marrom);
+  margin-bottom: 10px;
+}
+
+/* === FORMULÁRIO === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  background-color: var(--verde);
+  color: var(--branco);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: var(--marrom);
+}
+
+/* === RODAPÉ === */
+footer {
+  background-color: var(--marrom);
+  color: var(--branco);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 6px 0;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
