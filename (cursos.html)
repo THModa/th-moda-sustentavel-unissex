@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos | TH Moda Sustentável Unissex</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/idioma.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🌿 TH Moda Sustentável Unissex</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="loja.html">Loja</a>
+      <a href="blog.html">Blog</a>
+      <a href="cursos.html" class="active">Cursos</a>
+      <a href="contato.html">Contato</a>
+      <button id="lang-btn">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Cursos, E-books e Afiliados</h2>
+      <p>Aprenda mais sobre moda sustentável e junte-se a uma comunidade global de consumo consciente.</p>
+    </section>
+
+    <section class="cursos">
+      <article class="curso">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Open_book_nae_02.svg" alt="E-book Moda Consciente">
+        <h3>E-book: Moda Consciente para Todos</h3>
+        <p>Descubra como aplicar princípios sustentáveis no seu estilo pessoal e no seu negócio.</p>
+        <a href="#">Baixar E-book</a>
+      </article>
+
+      <article class="curso">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Online_course_icon.svg" alt="Curso Moda Sustentável">
+        <h3>Curso Online: Design Ecológico</h3>
+        <p>Aprenda a criar roupas ecológicas, reaproveitar tecidos e empreender com propósito.</p>
+        <a href="#">Inscreva-se</a>
+      </article>
+
+      <article class="curso">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Affiliate_link_icon.svg" alt="Afiliados Sustentáveis">
+        <h3>Programa de Afiliados Verdes</h3>
+        <p>Indique nossos produtos e cursos e ganhe comissões promovendo a sustentabilidade.</p>
+        <a href="#">Seja um afiliado</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 TH Moda Sustentável Unissex — Educação e consciência ecológica.</p>
+  </footer>
+</body>
+</html>
