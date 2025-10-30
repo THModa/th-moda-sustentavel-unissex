@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato | TH Moda Sustentável Unissex</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <script src="scripts/idioma.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato - TH Moda Sustentável Unissex</title>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
   <header>
-    <h1>🌿 TH Moda Sustentável Unissex</h1>
+    <h1>TH Moda Sustentável Unissex</h1>
     <nav>
       <a href="index.html">Início</a>
       <a href="loja.html">Loja</a>
@@ -22,34 +21,32 @@
 
   <main>
     <section class="intro">
-      <h2>Entre em Contato</h2>
-      <p>Quer saber mais, fazer parceria ou sugerir ideias? Fale conosco! 💬</p>
+      <h2>Fale Conosco 🌿</h2>
+      <p>
+        Entre em contato com a equipe da TH Moda Sustentável Unissex.
+        Valorizamos sua opinião, dúvidas e sugestões sobre moda ecológica e ética.
+      </p>
     </section>
 
-    <section class="formulario">
-      <form action="#" method="post">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
-
+    <section class="sessao">
+      <h3>Envie uma mensagem</h3>
+      <form action="https://formsubmit.co/thiagotemfe1@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="message" rows="5" placeholder="Sua mensagem..." required></textarea>
         <button type="submit">Enviar</button>
-      </form>
 
-      <div class="info-contato">
-        <h3>Outros canais</h3>
-        <p>📧 E-mail: <a href="mailto:thiagotemfe1@gmail.com">thiagotemfe1@gmail.com</a></p>
-        <p>🌐 Instagram: <a href="#">@thmodasustentavel</a></p>
-      </div>
+        <!-- Segurança e configuração do FormSubmit -->
+        <input type="hidden" name="_next" value="https://thmoda.vercel.app/obrigado.html" />
+        <input type="hidden" name="_captcha" value="false" />
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 TH Moda Sustentável Unissex — Fale conosco, queremos ouvir você!</p>
+    © 2025 TH Moda Sustentável Unissex — Todos os direitos reservados.
   </footer>
+
+  <script src="scripts/idioma.js"></script>
 </body>
 </html>
